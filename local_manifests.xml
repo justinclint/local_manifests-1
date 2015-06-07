@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="tv"        fetch="https://github.com/Team-Validus/" />
+<remote name="github1"        fetch="https://github.com" />
 <!-- Armani aka Redmi 1S -->
-	<project name="tarunkapadia93/android_device_xiaomi_armani" path="device/xiaomi/armani" remote="github" revision="crdroid5.1" />
-	<project name="armani-dev/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-12.1" />
-	<project name="tarunkapadia93/android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="github" revision="franco_caf" /> 
+	<project name="tarunkapadia93/android_device_xiaomi_armani" path="device/xiaomi/armani" remote="github1" revision="crdroid5.1" />
+	<project name="armani-dev/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github1" revision="cm-12.1" />
+	<project name="tarunkapadia93/android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="github1" revision="franco_caf" /> 
 
     <!--Common-->
-	<project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
-	<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+	<project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github1" revision="cm-12.1" />
+	<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github1" revision="cm-12.1" />
+        <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github1" revision="cm-12.1" />
 
 <!-- Toolchains -->
 	<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
